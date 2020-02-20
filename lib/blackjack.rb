@@ -70,7 +70,7 @@ def runner
   welcome
   num = initial_round
   hit?(num)
-  until hit?(num) > 21 do
+  until num > 21 do
    num = hit?(num)
   end
   binding.pry
