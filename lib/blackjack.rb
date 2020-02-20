@@ -71,10 +71,9 @@ def runner
   num = initial_round
   until num > 21 do
    num = hit?(num)
-   binding.pry
   end
-  end_game(num)
-    
+  display_card_total(num)
+
 
   
   
