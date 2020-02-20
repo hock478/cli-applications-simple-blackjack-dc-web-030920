@@ -73,7 +73,6 @@ def runner
    num = hit?(num)
    binding.pry
   end
-
   end_game(num)
     
 
