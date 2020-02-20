@@ -73,6 +73,7 @@ def runner
   until hit?(num) > 21 do
     hit?(num)
   end
+  binding.pry
   end_game
     
 
