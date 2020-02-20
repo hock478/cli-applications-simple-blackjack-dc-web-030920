@@ -71,7 +71,7 @@ def runner
   num = initial_round
   hit?(num)
   until hit?(num) > 21 do
-    hit?(num)
+   num = hit?(num)
   end
   binding.pry
   end_game
