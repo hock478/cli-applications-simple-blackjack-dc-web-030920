@@ -1,3 +1,4 @@
+require 'pry'
 def welcome
   puts "Welcome to the Blackjack Table"
 end
@@ -68,6 +69,7 @@ def runner
   
   welcome
   num = initial_round
+  binding.pry
   hit?(num)
   display_card_total(num)
   
